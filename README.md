@@ -1,1 +1,1 @@
-# ejercicio_fiz.py
+# Ejercicio FIZZ-BUZZ
