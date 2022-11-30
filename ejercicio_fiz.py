@@ -1,16 +1,16 @@
 #lista denumeros de 1 al 100
 # si es multiplo de 3 es fizz
 #si es multiplo de 5 es buzz
-# y sicumple las 2 funciones es fizzbuzz
-# y si no cumple ninguna de las 2 los pongo en un
-for numero in range (1,100):
-    if numero %3==0 and numero %5==0:
-        print((numero),"fizzbuzz")
-    elif numero%5==0:
-        print((numero),"buzz")
-    elif numero%3==0:
-        print((numero),"fizz")
+# y si es multiplo de 3 y 5 es fizzbuzz
+# y si no es divisible, nocumple no con las condiciones dadas 
+
+for number in range(1, 101):
+    if number % 3 == 0 and number % 5 == 0:
+        print((number),"FizzBuzz")
+    elif number % 5 == 0:
+        print((number),"Buzz")
+    elif number % 3 == 0:
+        print((number),"Fizz")
     else:
-        print((numero),"no cumple")
-print(numero)
-    
+        print((number),"no cumple")
+print (number)
